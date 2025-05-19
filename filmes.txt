@@ -10,3 +10,5 @@ brsmokke@Smokke
 	git remote set-url origin git@github.com:vasilyrosa/citacoes.git
 3 - Agora tente novamente:
 	git push origin main
+	
+	git pull baixa todas as atualizaçoes
