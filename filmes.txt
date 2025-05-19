@@ -1,5 +1,12 @@
-"Não há certezas, apenas oportunidades." (V de Vingança)
-"Diga ’olá’ para meu pequeno amigo!" (Scarface)
-"Hasta la vista, baby." (Exterminador do Futuro 3)
-meu primeiro amor
-Pânico
+token
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDfPP69EuOZkfObvqLPfTrEZ6VsIPp5N65afwSfkhUwIDz2Wx6bcwAPuRNcfyTJX3elQAEu+76k2ejpnv4OJ7w+GtCE8S1Gb5JhZUY+YRz2L7ScqNY9vb8tH/eHQOaQA36D4cXzQxkh+Q+xjF7ceg+1Dr3Ue6rQjxE5bel4fIANIGvFdC61f9waHzIVxd9jrhOEwRZv7bF4uD1YIpU/mugVca5O8DA81Xvqmjux5fiAoxCNsySai5zgFg9XS0bw3/7XbMGtGX60wzDRS4hjxat2JJp2ZBrKHjY0YatMpj0ZTXTRH2WCAac7vNExymrV4LaNDNw5zxsPhbrR/DYK3GKjwoD3yNFcI9KOnWPKjh54K4LZ+9EJPdNTOoR05qsyp5TdVnbYjCm0ai6E+0LwaGNRvFtP8kHxEhCxOumPInDAWD5cp113ryvktK7z7l9NZNV7tCSitghqEcfmCw7mQAH28KrMB6IknOH4omfiUnXzpeFsVPjARMA3vEUkC5iAqH/N70NCtExYPx3jVbx6gtptadsF5+nX8plFmc4myyg8yvmoXYMvCTq+r0rubqH1kS9cF+uSl9dHSxkIj1hC+MD7Vb+JBCEXO2C1pyG8kJwubmBgtNpviCx2DBDRb/8zK1kIdpXqsWwMS2HsMEni0KTpA2Gn/VlZ87v/wyDMW7BqUQ== everton_330@hotmail.com
+brsmokke@Smokke
+
+
+1 - Verifique se a chave SSH está funcionando
+	ssh -T git@github.com
+2 - Troque o URL do repositório para SSH:
+	git remote set-url origin git@github.com:vasilyrosa/citacoes.git
+3 - Agora tente novamente:
+	git push origin main
